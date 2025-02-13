@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+
+@utility container {
+    margin-inline: auto; /* Centers the container */
+    padding-inline: 1rem; /* Default horizontal padding */
+  
+    @variant sm {
+      padding-inline: 2rem;
+    }
+  
+    @variant lg {
+      padding-inline: 4rem;
+    }
+  
+    @variant xl {
+      padding-inline: 5rem;
+    }
+  }
